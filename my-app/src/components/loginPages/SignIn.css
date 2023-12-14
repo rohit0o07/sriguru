@@ -1,0 +1,9 @@
+.sign-in {
+    width: 20rem;
+    height: 30rem;
+    background-color: rgb(240, 15, 15);
+    margin-top: 0%;
+    margin-left: 60%;
+    text-align: center;
+    z-index: 10;
+}

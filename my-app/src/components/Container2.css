@@ -1,0 +1,214 @@
+.contain{
+    width:100vw;
+    height:90px;
+    background-color: rgb(86, 232, 86);
+    display: flex;
+    
+}
+.contain h3{
+    margin-top: 25px;
+}
+.contain a {
+    margin-top: 30px;
+    font-size: 20px;
+    margin-left: 20px;
+    color: black;
+}
+
+/* container */
+.card{
+    height:500px;
+    align-items: center;
+    
+}
+.card1{
+    text-align: center;
+
+}
+.button{
+    justify-content: space-evenly;
+}
+.button4{
+    align-items: center;
+    background-color: #6ac142;
+}
+.button2{
+    align-items: center;
+    background-color: #6ac142;
+}
+.button3{
+    align-items: center;
+    background-color: #6ac142;
+}
+span{
+    color: #6ac142;
+    font-size: 40px;
+}
+.icon{
+    font-size: 100px;
+}
+
+/* container4 */
+
+.card-main{
+    /* margin-top: 15rem; */
+    display: flex;
+    justify-content: space-evenly;
+    padding:5rem;
+    box-shadow: rgba(9, 30, 18, 0.07) 0px 4px
+}
+.card-subMain{
+    width:50rem;
+    height:40rem;
+    background-color: rgb(245, 240, 229);
+    display: flex;
+    box-shadow: black;
+}
+.card-subMain:hover{
+    cursor: pointer;
+    box-shadow: 0px 12px 30px 0px rgb(38, 37, 37);
+    transition: all 800ms;
+}
+.card-subMain1{
+    width:50rem;
+    height:40rem;
+    background-color: rgb(245, 240, 229);
+    display: flex;
+    box-shadow: black;
+    position: relative; 
+    margin-left: 10rem;
+}
+.card-subMain1:hover{
+    cursor: pointer;
+    box-shadow: 0px 12px 30px 0px rgb(38, 37, 37);
+    transition: all 800ms;
+}
+.card-subMain2{
+    width:50rem;
+    height:40rem;
+    background-color: rgb(245, 240, 229);
+    display: flex;
+    box-shadow: black;
+    margin-top: 45rem;
+    margin-left: -115rem;
+}
+.card-subMain2:hover{
+    cursor: pointer;
+    box-shadow: 0px 12px 30px 0px rgb(38, 37, 37);
+    transition: all 800ms;
+}
+.card-subMain3{
+    width:50rem;
+    height:40rem;
+    background-color: rgb(245, 240, 229);
+    display: flex;
+    box-shadow: black;
+    margin-top: 45rem;
+    margin-left: 10rem;
+}
+.card-subMain3:hover{
+    cursor: pointer;
+    box-shadow: 0px 12px 30px 0px rgb(38, 37, 37);
+    transition: all 800ms;
+}
+
+
+.card-image .img{
+    width:23rem;
+    height:25rem;
+    position: relative;
+    text-align: center;
+    background-color: #6ac142;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    overflow: hidden;
+    color:#6ac142;
+}
+.card-image .img:hover{
+    transform: scale(1.1);
+
+}
+.card-content{
+    padding: 2rem;
+}
+.card-content1{
+    padding: 2rem;
+}
+.card-content2{
+    padding: 2rem;
+}
+.card-content3{
+    padding: 2rem;
+}
+h6{
+    color:#6ac142;
+}
+
+.badge-primary[href]:focus, .badge-primary[href]:hover {
+    color: #212529;
+    text-decoration: none;
+    background-color: #6ac142;
+}
+a:hover {
+    color: #6ac142;
+    text-decoration: underline;
+}
+
+.p-2 {
+    padding: .5rem!important;
+}
+.badge-primary {
+    color: #212529;
+    background-color: #6ac142;
+}
+.badge {
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    text-align: center;
+    vertical-align: baseline;
+    border-radius: .25rem;
+}
+.badge, .close {
+    font-weight: 700;
+    line-height: 1;
+}
+.badge, .btn, .dropdown-header, .dropdown-item, .input-group-text, .navbar-brand, .progress-bar {
+    white-space: nowrap;
+}
+a {
+    text-decoration: none!important;
+    color: #6ac142;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.update-card .u-image-wrap {
+    position: relative;
+    text-align: center;
+    background-color: #6ac142;
+    height: 25rem;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    overflow: hidden;
+}
+.card-image a{
+    position: absolute;
+    margin-left: -22rem;
+    margin-top: 1rem;
+}
+@media (max-width: 768px) {
+    .card-subMain {
+      flex: 0 0 50%; /* use the standard flex property */
+      max-width: 50%;
+    }
+  }
+  

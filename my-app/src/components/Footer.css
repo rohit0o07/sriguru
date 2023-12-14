@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.container {
+    max-width: 100%;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    background-color: #061c54;
+    /* padding: 60px 0; */
+    /* margin-top: 10rem; */
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+    font-weight: bold;
+
+}
+
+.footer-lang {
+    font-size: .8em;
+    line-height: 1.4;
+    color: #9daabf;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    font-weight: 500;
+    position: relative;
+    margin-top: 0.1rem;
+}
+
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 3px;
+    box-sizing: border-box;
+    width: 50px;
+
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+} 
+
+ .footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+} 
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 12px;
+    /* background-color: rgba(255, 255, 255, 0.2); */
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 0px;
+    color: #ffffff;
+    transition: all 0.5s ease;
+    font-size: 30px;
+    margin-left: 300%;
+    margin-top: 30%;
+}
+
+.footer-col p {
+    color: #6ac142
+}
+
+h3 {
+    color: white;
+}
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+    
+}
+
+.footer-last {
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    /* padding: 10px; */
+}
+
+footer-lang {
+    align-items:right;
+}
+hr {
+    background-color: white;
+}
+span {
+    color: #6ac142;
+}
+.social-links {
+    display: flex;
+}
+
+.social-links li {
+    font-size: 20px;
+    list-style: none;
+    margin-top: -6rem;
+}
+
+@media(max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 574px) {
+    .footer-col {
+        width: 100%;
+    }
+}
+
+.quick-float-icon:hover {
+    height: 38px;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.quick-float-icon {
+    height: 48px;
+    cursor: pointer;
+    margin-left: 2rem;
+    transition: all .4s;
+}

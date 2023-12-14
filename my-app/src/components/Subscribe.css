@@ -1,0 +1,90 @@
+#newsletter .footer-subscribe .subscribe-form-wrap #subscribe-from .newsletter-cell-wrap .subscribe-input {
+    border-radius: 100px;
+    height: 52px;
+    font-size: 15px;
+    padding: 0 20px;
+    border: 2px solid #dadee2;
+    outline: 0;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+button, hr, input {
+    overflow: visible;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+input[type="text" i] {
+    writing-mode: horizontal-tb !important;
+    padding-block: 1px;
+    padding-inline: 2px;
+}
+user agent stylesheet
+input:not([type="file" i], [type="image" i], [type="checkbox" i], [type="radio" i]) {
+}
+user agent stylesheet
+input {
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+    margin: 0em;
+    padding: 1px 0px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    padding-block: 1px;
+    padding-inline: 2px;
+}
+.subscribe{
+    width:50rem;
+    height:20rem;
+    background-color:rgb(248, 243, 243);
+    padding: 4rem;
+    border-radius: 2rem;
+    align-items: center ;
+    margin-left: 30%;
+    
+}
+.subscribe input {
+    font-size: large;
+    outline: none;
+    transition: .5s ease all;
+
+}
+.subscribe-button{
+    width:10rem;
+    height:3rem;
+    border-radius: 5rem;
+    background-color: rgb(34, 207, 34);
+}
